@@ -11,6 +11,11 @@ sections:
   label: kkkkkk
   match: "**/*"
   read_only: false
+- type: directory
+  path: jjjj
+  label: Dir
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
